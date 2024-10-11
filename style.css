@@ -1,0 +1,33 @@
+/* testing out inheritance */
+
+ul {
+    background-color: grey;
+}
+
+.main {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.crane {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bane {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ancestor */
+.crane a {
+    color: white;
+    text-decoration: none;
+}
+
+/* direct child */
+.bane > a {
+    color: white;
+}
+
+.main a {
+    color: white;
+}
+
